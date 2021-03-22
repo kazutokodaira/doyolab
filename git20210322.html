@@ -16,28 +16,43 @@
     </logotohome>
 
     <!--h1は見出し１（大見出し）-->
-    <h1>GitHubPagesの使い方</h1>
+    <h1>ゼミ合宿3月22日</h1>
         <!--h2は見出し2（中見出し）-->
-        <h2>■前準備</h2>
+        <h2>■Github</h2>
             <!--h3は見出し3（小見出し）-->
-            <h3>GitHubのアカウント</h3>
+            <h3>アカウントを作成する</h3>
             <!--pは段落-->
             <p>
                 <!--a href はリンク-->
-                <a href="https://github.com/">GitHubのページ</a>でGitHubのアカウントを作りましょう。
+                <a href="https://github.com/">GitHubのページ</a>
+                <br>
+                アカウント名とパスワードを決めて、jindaiメールアドレスにて認証メールを受け取る。
+                <br><br>最初に人間かどうかの試験を受けさせられる。１つ１つは大した問題ではないが10回答えさせられたので煩わしい。
+                <br>
+                <img src="https://udemyfun.com/prince/wp-content/uploads/2021/01/py1105.png"
+                <br>
+                私の場合はサイコロがもっと多く3個以上で14になるペアを探す問題だった。
+
+
+            
+
+        
+        
                 <br><!--brは改行-->
-                <img src="images/20190611/GitHub_Logo.png" width="30%">
+                
             </p>
-            <h3>Homebrewをインストール</h3>
+            <h3></h3>
             <!--pは段落-->
             <p>
-                <img src="images/20190611/homebrew.png" width="30%">
-                <br>
-                ターミナルに下記のコマンドをコピペし、Enterを押すとHomebrewがインストールできます。<br><!--brは改行-->
-                しばらく時間がかかるので、待ちましょう。<br><br>
+        
+                <br>アクセストークンを獲得する。settingからdeveroper　settingsを選択し、トークンを獲得した。
+                アクセストークンはこの時にしか見ることができないため私はiphoneのメモ帳に保存してある。
+
+    
+            
+                <br><br>
                 <!--部分的に黒バックにする。cssにプロパティは記述-->
                 <span class="blackback">
-                    /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
                 </span>
                 
             </p>
@@ -51,9 +66,9 @@
                 </p>
             <h3>フォルダの作成</h3>
                     <p>
-                    フォルダはなんでもいいのですが、わかりやすいようにホームディレクトリにmygitというフォルダを作りましょう。ターミナルを立ち上げて下記のコマンドを入力するとフォルダが作成されます。<br>
-                    <span class="blackback">
-                        mkdir mygit
+                    finderにmygitという名前でフォルダを作成した。そこに先生のdoyolabのコピーも入っている<br>
+                    
+                        
                     </span>
                 </p>
 
@@ -95,13 +110,15 @@
             <h3>確認</h3>
             <p>mygitの中にdoyolabというフォルダができて、doyolabフォルダの中にREADME.mdファイルが入っていれば成功です。
     
-        <h2>■運用</h2>
+        <h2>■何度も使うので覚えたいコード
+
+        </h2>
             <h3>ファイルを追加、変更したら</h3>
             <p>
                 htmlファイルを作って、doyolabフォルダに入れ、下記の手順でgithubへアップロードできます。<br>
                 <span class="blackback">
                     cd mygit/doyolab
-                </span>(doyolabフォルダに移動するだけなので、既に移動済みの場合はいらない)
+                </span>(これを使えば一回で移動することができる）
                 <br>
                 <span class="blackback">
                     git add .
@@ -109,12 +126,30 @@
                 <br>
                 <span class="blackback">
                     git commit -m"メッセージ"
-                </span>
+                </span>（毎回変えた方がいいらしい）
                 <br>
                 <span class="blackback">
                     git push
-                </span>
-            </p>
+                </span>（反映には1分ほどかかるので注意）
+                <br><br><img src="remembercode">
+                ←コードを使用したときのスクショを載せたのですが画像が出てきませんでした
+                (やり方わからず)
                 
+
+
+            </p>
+  <h1>VScode</h1>              
+<h2>htmlについて</h2>
+<p>今このページを作っているものこそがhtmlだという</p>
+<br><h2>本日実践したこと</h2>
+　　　<p>リンクを作成する<br>
+     →< a href="参照するリンク先のＵＲＬ">リンクにつけたい名前< /a >
+     <br><br>
+     画像を差し込む
+     <br>→＜img src="載せたい画像のファイル名"＞
+
+
+
+
 
 </body>
